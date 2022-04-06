@@ -17,11 +17,15 @@
 body {
     font-family: var(--font-family);
     color: var(--color-font-main);
-    
+    font-size: 14px;
+    line-height: 1.71em;
+    letter-spacing: 0.03em;
+   
 }
 .list {
     list-style: none;
     padding: 0;
+    
 }
 .link {
     text-decoration: none;
@@ -43,12 +47,35 @@ font-size: 36px;
 line-height: 1.67;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--main-dark)
+color: var(--main-dark);
+padding-top: 94px;
+margin-bottom: 50px;
 }
+.section h2 {
+    padding-top: 0px;
+}
+
 /*header*/
 .header {
     background-color: var(--main-light);
+   
+}
+.div-header {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 25px;
     
+}
+.div-logo {
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+margin-right: 93px;
+
 }
 .logo {
 font-family: 'Raleway', sans-serif;
@@ -61,12 +88,14 @@ color: var(--secondary-dark);
 .current {
     color: var(--accent-color);
 }
+
 .menu-link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--main-dark);
+
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -78,6 +107,14 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+
+}
+.link-mail {
+    margin-right: 50px;
+}
+.list-contact {
+    margin-left: auto;
+    
 }
 .link-mail:hover,
 .link-mail:focus{
@@ -91,6 +128,10 @@ letter-spacing: 0.02em;
 
 .hero {
     background-color: var(--primary-background);
+    
+}
+.container-hero {
+   padding-bottom: 200px;
 }
 .hero-title {
 font-weight: 900;
@@ -99,7 +140,10 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: var(--main-light)
+color: var(--main-light);
+width: 696px;
+margin: 0 auto;
+padding-top: 200px;
 
 }
 .hero-btn {
@@ -107,12 +151,18 @@ font-family: var(--font-family);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-display: flex;
+display: block;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: var(--main-light);
 background-color: var(--accent-color);
+width: 200px;
+height: 50px;
+margin: 0 auto;
+margin-top: 30px;
+border-radius: 4px;
+
 
 }
 .hero-btn:hover,
@@ -120,7 +170,10 @@ background-color: var(--accent-color);
 background-color: var(--secondary-accent);
 }
 /*main*/
-
+.list-item {
+    margin-right: 30px;
+    
+}
 .benefits-title {
 font-weight: 700;
 font-size: 14px;
@@ -128,6 +181,8 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--main-dark);
+margin-top: 94px;
+margin-bottom: 10px;
 }
 .list-name {
 font-weight: 500;
@@ -139,7 +194,7 @@ color: var(--main-dark)
 }
 /*футер*/
 
-.adress {
+.footer {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -182,4 +237,60 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--main-dark);
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-right: 50px;
+}
+.list {
+    display: flex;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 94px;
+    
+   
+}
+.section-team {
+    background-color: var(--secondary-background);
+    
+
+}
+.section-team p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.19em;
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+.adress-list {
+    display: block;
+}
+.container-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.footer-logo {
+    margin-bottom: 20px;
+}
+.adress p {
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+.footer-item {
+    margin-bottom: 9px;
 }
